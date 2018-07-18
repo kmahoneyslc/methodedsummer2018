@@ -1,0 +1,83 @@
+body {
+  color: #630460;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+nav h1 {
+  font-weight: 800;
+  margin: 0;
+}
+
+nav div a:link{
+    color: white;
+}
+
+nav div a:visited{
+    color: lightgrey;
+}
+
+div.header {
+  padding: 20px 0;
+}
+
+div.header .row,
+div.footer .row {
+  display: flex;
+  align-items: center;
+}
+
+div.header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+div.header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('../images/assignment-1_kmh.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+div.footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+div.footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.footer img {
+  width: 32px;
+  height: 32px;
+  margin: 15px;
+}
